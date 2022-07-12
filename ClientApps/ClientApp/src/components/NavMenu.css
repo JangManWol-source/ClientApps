@@ -16,3 +16,17 @@ html {
 .box-shadow {
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
+#sign_out_collapse{
+  display: none;
+}
+.item:hover{
+  color: #ffcc00;
+}
+@media screen and (max-width:640px){
+  #sign_out{
+    visibility: hidden;
+  }
+  #sign_out_collapse{
+    display: flex;
+  }
+}
